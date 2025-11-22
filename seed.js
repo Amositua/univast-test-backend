@@ -24,7 +24,7 @@ const seedPlanets = [
     name: 'mars',
     title: 'Red Land\nMars',
     description: 'Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System. It is often referred to as the "Red Planet" due to its reddish appearance caused by iron oxide on its surface.',
-    imageUrl: 'https://images.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA03620/PIA03620~small.jpg',
     category: 'Red Land',
     order: 2,
     facts: [
@@ -38,7 +38,7 @@ const seedPlanets = [
     name: 'saturn',
     title: 'Beautiful Planet\nSaturn',
     description: 'Saturn is the sixth planet from the Sun and the second-largest in the Solar System. It is best known for its spectacular ring system, which is made up of ice particles and rocky debris.',
-    imageUrl: 'https://images.pexels.com/photos/17834/pexels-photo.jpg',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA03161/PIA03161~medium.jpg',
     category: 'Beautiful Planet',
     order: 3,
     facts: [
@@ -52,7 +52,7 @@ const seedPlanets = [
     name: 'jupiter',
     title: 'Giant Planet\nJupiter',
     description: 'Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass more than two and a half times that of all the other planets combined.',
-    imageUrl: 'https://images.pexels.com/photos/39649/solar-flare-sun-eruption-energy-39649.jpeg',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA22946/PIA22946~medium.jpg',
     category: 'Giant Planet',
     order: 4,
     facts: [
@@ -60,6 +60,90 @@ const seedPlanets = [
       { label: 'Diameter', value: '139,820 km' },
       { label: 'Mass', value: '1.898 × 10^27 kg' },
       { label: 'Gravity', value: '24.79 m/s²' }
+    ]
+  },
+   // 5. Mercury
+  {
+    name: 'mercury',
+    title: 'Swift Planet\nMercury',
+    description:
+      'Mercury is the smallest planet and closest to the Sun. It has a rocky, cratered surface similar to Earth’s moon. NASA’s MESSENGER spacecraft mapped Mercury in high detail.',
+    imageUrl: 'https://svs.gsfc.nasa.gov/vis/a030000/a030300/a030340/mercury-messenger_print.jpg',
+    category: 'Swift Planet',
+    order: 5,
+    facts: [
+      { label: 'Distance from Sun', value: '57.9 million km' },
+      { label: 'Diameter', value: '4,879 km' },
+      { label: 'Mass', value: '3.30 × 10^23 kg' },
+      { label: 'Gravity', value: '3.7 m/s²' }
+    ]
+  },
+
+  // 6. Venus
+  {
+    name: 'venus',
+    title: 'Cloudy Planet\nVenus',
+    description:
+      'Venus is the second planet and is similar in size to Earth but covered by thick, toxic clouds. Surface temperatures exceed 460°C, making it the hottest planet.',
+    imageUrl: 'https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/pia00271/PIA00271~large.jpg',
+    category: 'Cloudy Planet',
+    order: 6,
+    facts: [
+      { label: 'Distance from Sun', value: '108.2 million km' },
+      { label: 'Diameter', value: '12,104 km' },
+      { label: 'Mass', value: '4.87 × 10^24 kg' },
+      { label: 'Gravity', value: '8.87 m/s²' }
+    ]
+  },
+
+  // 7. Uranus
+  {
+    name: 'uranus',
+    title: 'Ice Giant\nUranus',
+    description:
+      'Uranus is an ice giant with a pale blue color due to methane in its atmosphere. It rotates on its side, making its seasons extreme. Voyager 2 captured the best images of Uranus.',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA18182/PIA18182~medium.jpg',
+    category: 'Ice Giant',
+    order: 7,
+    facts: [
+      { label: 'Distance from Sun', value: '2.87 billion km' },
+      { label: 'Diameter', value: '50,724 km' },
+      { label: 'Mass', value: '8.68 × 10^25 kg' },
+      { label: 'Gravity', value: '8.69 m/s²' }
+    ]
+  },
+
+  // 8. Neptune
+  {
+    name: 'neptune',
+    title: 'Windy Planet\nNeptune',
+    description:
+      'Neptune is the farthest known planet from the Sun. It has deep blue coloration and the fastest winds in the Solar System, reaching over 2,000 km/h.',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA01492/PIA01492~medium.jpg',
+    category: 'Windy Planet',
+    order: 8,
+    facts: [
+      { label: 'Distance from Sun', value: '4.50 billion km' },
+      { label: 'Diameter', value: '49,244 km' },
+      { label: 'Mass', value: '1.02 × 10^26 kg' },
+      { label: 'Gravity', value: '11.15 m/s²' }
+    ]
+  },
+
+  // 9. Pluto (Dwarf Planet)
+  {
+    name: 'pluto',
+    title: 'Dwarf Planet\nPluto',
+    description:
+      'Pluto is a dwarf planet in the Kuiper Belt. NASA’s New Horizons mission provided the first close-up images of Pluto’s icy mountains and heart-shaped region.',
+    imageUrl: 'https://images-assets.nasa.gov/image/PIA19952/PIA19952~medium.jpg',
+    category: 'Dwarf Planet',
+    order: 9,
+    facts: [
+      { label: 'Distance from Sun', value: '5.9 billion km (average)' },
+      { label: 'Diameter', value: '2,377 km' },
+      { label: 'Mass', value: '1.31 × 10^22 kg' },
+      { label: 'Gravity', value: '0.62 m/s²' }
     ]
   }
 ];
